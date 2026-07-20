@@ -1,0 +1,17 @@
+Access to the path 'cas.cat' is denied.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.Delete()
+   at Frosty.ModSupport.FrostyModExecutor.RecursiveDeleteFiles(String path)
+   at Frosty.ModSupport.FrostyModExecutor.DeleteSelectFiles(String modPath)
+   at Frosty.ModSupport.FrostyModExecutor.Run(FileSystem inFs, CancellationToken cancelToken, ILogger inLogger, String rootPath, String modPackName, String additionalArgs, String[] modPaths)
+   at FrostyModManager.MainWindow.<>c__DisplayClass16_0.<launchButton_Click>b__0(FrostyTaskWindow task)
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Frosty.Core.Windows.FrostyTaskWindow.<FrostyTaskWindow_Loaded>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
